@@ -12,18 +12,41 @@
 
     width: 100%;
     height: 15%;
-    background-color: #EEEEEE;
+
+}
 
 
+  
+li#home_button{
+    background-color: #ff0000;
+}
+
+li#posts_button{
+    background-color: #ffa500;
+}
+
+
+li#dev_button{
+    background-color: #0890f8;
+}
+li#info_button{
+    background-color: #0bbc0b;
 }
 
 ul#menu li {
-    background-color: #EEEEEE;
     display: inline-block;
-    padding: 20px;
+    padding: 15px;
+    margin: 0;
     font-family: "Lucida Console", "Courier New", monospace;
 }
+ul#menu a{
 
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+
+
+}
 
 #logo{
 
@@ -45,15 +68,19 @@ ul#menu li {
 }
 
 ul#menu li:hover {
-    background-color: #B0B0B0;
+    
     animation-name: squash; 
     animation-duration: 1s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
-  }
-  
-  
+}
+
+
+
+
+
+
 @keyframes squash {
   
     0%, 0% {

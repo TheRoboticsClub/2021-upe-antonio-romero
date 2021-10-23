@@ -1,0 +1,57 @@
+<html>
+    <head> 
+        <link rel = "stylesheet" href = "styles/main.css">
+        <link rel = "stylesheet" href = "styles/banner.css">
+        <script src="lib/jquery.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        
+    </head>
+
+
+    <body>
+
+
+        
+        <div id="header"></div>
+        <div id = "banner"> 
+
+
+            <div id = "logo" > 
+
+            </div>
+            <div style="background-color: #EEEEEE; color:white;">
+                <ul compact="compact" id="menu" style="text-align: center; " >
+                    <a href="home.html"><li id="home_button">HOME</li></a>
+                    <a href="posts.html"><li id="posts_button">» POSTS</li></a>
+                    <a href="development.html"><li id="dev_button">DEV</li></a>
+                    <a href="info.html"><li id="info_button">INFO</li></a>
+
+                </ul>
+            </div>
+            
+        </div>
+
+        <div align="center";>
+            <table style="width:80%">
+                <tr id ="post_view">
+                  
+                    <script>
+
+                </tr>
+                <tr id="posts_list">
+
+                </tr>
+
+              </table>
+              
+        </div>
+
+
+
+        
+    </body>
+    <script>
+
+        $('#header').load("/assets/banner.html");
+    </script>
+</html>
