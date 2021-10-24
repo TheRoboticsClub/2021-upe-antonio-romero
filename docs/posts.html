@@ -2,8 +2,9 @@
     <head> 
         <link rel = "stylesheet" href = "styles/main.css">
         <link rel = "stylesheet" href = "styles/banner.css">
+        <link rel = "stylesheet" href = "lib/bootstrap.min.css">
         <script src="lib/jquery.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="lib/bootstrap.min.js"></script>
         
     </head>
 
@@ -30,12 +31,12 @@
             </div>
             
         </div>
-
+        <div id="post_week1"></div>
         <div align="center";>
             <table style="width:80%">
                 <tr id ="post_view">
                   
-                    <script>
+                    
 
                 </tr>
                 <tr id="posts_list">
@@ -52,6 +53,10 @@
     </body>
     <script>
 
-        $('#header').load("/assets/banner.html");
+        $('#header').load("assets/banner.html");
+    </script>
+    <script>
+
+        $('#post_week1').load("posts/18-24-november-2021.html");
     </script>
 </html>
