@@ -15,13 +15,13 @@ p#date{
 
 body{
 
-    font-family: "Lucida Console", "Courier New", monospace; 
+
 
 
 }
 
 #post-content{
-    
+    font-family: Ubuntu Mono;
     background-color: black;
     background-image: radial-gradient(
         rgba(58, 3, 58, 0.75), rgba(170, 40, 47, 0.75) 120%
