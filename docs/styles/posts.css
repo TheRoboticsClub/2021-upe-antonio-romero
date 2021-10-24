@@ -24,7 +24,7 @@ body{
     
     background-color: black;
     background-image: radial-gradient(
-        rgba(0, 150, 0, 0.75), black 120%
+        rgba(58, 3, 58, 0.75), rgba(170, 40, 47, 0.75) 120%
     );
     height: 100vh;
     margin: 0;
