@@ -2,11 +2,11 @@
     <head> 
         <link rel = "stylesheet" href = "styles/main.css">
         <link rel = "stylesheet" href = "styles/banner.css">
-        <link rel = "stylesheet" href = "lib/bootstrap.min.css">
+        <link rel = "stylesheet" href = "styles/posts.css">
         <script src="lib/jquery.js"></script>
-        <script src="lib/bootstrap.min.js"></script>
+        
         <script>
-            $('#post_week1').load("posts/18-24-november-2021.html");
+            $('#post_list').load("posts/post_list.html");
         </script>
         
     </head>
@@ -33,19 +33,20 @@
             
         </div>
         <div id="post_week1"></div>
-        <div align="center";>
-            <table style="width:80%">
-                <tr id ="post_view">
-                  
+        <div id="post-content">
+            <div style="position:relative; padding-inline: 3%; margin-left: 5%; margin-right: 5%;">
+                <table style="width:80%">
+                    <tr ><a href="index.html" style="text-decoration: none; font-size: 16px; color: white;">← Back to home</a></tr>
+                    <tr><h1 style="font-family: Ubuntu Mono;">» POSTS LIST</h1></tr>
+                    <tr id ="post_view">
+                        <div id="post_list"></div>
+                        
+                    </tr>
+                    
 
-                </tr>
-                <tr id="posts_list">
-
-                </tr>
-
-              </table>
-              
-        </div>
+                </table>
+                
+            </div>
 
 
 
