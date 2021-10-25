@@ -1,0 +1,58 @@
+<html>
+    <head> 
+        <link rel = "stylesheet" href = "styles/main.css">
+        <link rel = "stylesheet" href = "styles/banner.css">
+        <link rel = "stylesheet" href = "styles/posts.css">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu+Mono" />
+        <script src="lib/jquery.js"></script>
+        
+        <script>
+        $(function(){
+            $('#info').load('assets/info_data.html')
+        });
+        </script>
+        
+    </head>
+
+
+    <body>
+
+
+        <div id = "banner"> 
+
+
+            <div id = "logo" > 
+
+            </div>
+            <div style="background-color: #EEEEEE; color:white;">
+                <ul compact="compact" id="menu" style="text-align: center; " >
+                    <a href="index.html"><li id="home_button">HOME</li></a>
+                    <a href="posts.html"><li id="posts_button">POSTS</li></a>
+                    <a href="development.html"><li id="dev_button">DEV</li></a>
+                    <a href="info.html"><li id="info_button">» INFO</li></a>
+
+                </ul>
+            </div>
+            
+        </div>
+        <div id="post-content">
+            <div style="position:relative; padding-inline: 3%; margin-left: 5%; margin-right: 5%;">
+                <table style="width:80%">
+                    <tr ><a href="index.html" style="text-decoration: none; font-size: 16px; color: white;">← Back to home</a></tr>
+                    <tr><h1 style="font-family: Ubuntu Mono;">» USER INFORMATION</h1></tr>
+                    <tr style="text-decoration: none; font-size: 20px; color: white;">root@theroboticsclub:~/$ sudo lshw</tr>
+                    <tr id ="post_view"><div id="info" style="margin-left: 3%;"></div></tr>
+
+                    
+
+                </table>
+                
+            </div>
+
+
+
+        
+    </body>
+
+
+</html>
