@@ -2,6 +2,14 @@
     <head> 
         <link rel = "stylesheet" href = "styles/main.css">
         <link rel = "stylesheet" href = "styles/banner.css">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu+Mono" />
+        <link rel = "stylesheet" href = "styles/posts.css">
+        <script src="lib/jquery.js"></script>
+        <script>
+            $(function(){
+                $('#hello_world').load('assets/hello_world.html')
+            });
+        </script>
     </head>
 
 
@@ -29,6 +37,20 @@
 
         </div>
 
+        <div id="post-content">
+            <div style="position:relative; padding-inline: 3%; margin-left: 5%; margin-right: 5%;">
+                <table style="width:80%">
+                    <tr ><a href="index.html" style="text-decoration: none; font-size: 16px; color: white;">← Back to home</a></tr>
+                    <tr><h1 style="font-family: Ubuntu Mono;">» POSTS LIST</h1></tr>
+                    <tr style="text-decoration: none; font-size: 20px; color: white;">root@theroboticsclub:~/home$ python hello_world.py </tr>
+                    <tr id ="hello_world"><div id="posts_list" style="margin-left: 3%;"></div></tr>
+
+                    
+
+                </table>
+                
+            </div>
+        </div>
 
 
         
