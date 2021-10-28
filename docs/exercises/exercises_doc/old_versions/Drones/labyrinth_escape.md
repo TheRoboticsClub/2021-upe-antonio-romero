@@ -98,7 +98,7 @@ Some explanations about the above code:
 - `from HAL import HAL` - to import the HAL(Hardware Abstraction Layer) library class. This class contains the functions that sends and receives information to and from the Hardware(Gazebo).
 - `from GUI import GUI` - to import the GUI(Graphical User Interface) library class. This class contains the functions used to view the debugging information, like image widgets.
 
-## API
+## Robot API
 You can access to the drone methods through the Hardware Abstraction Layer (HAL).
 
 ### Sensors and drone state
