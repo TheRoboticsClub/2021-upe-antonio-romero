@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>Cliente que envía y recibe mensajes</title>
+
+  <script type="text/javascript" src="websocket_js.js"> </script>
+</head>
+<body onload="init();">
+  <form onsubmit="onSubmit(); return false;">
+    <input type="text" id="input">
+    <input type="submit" value="Enviar mensaje Antonio">
+    <button onclick="onCloseClick(); return false;">Desconectarse</button>
+  </form>
+  <div id="log"></div>
+</body>
+</html>
