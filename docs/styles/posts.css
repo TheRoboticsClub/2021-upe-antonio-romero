@@ -26,7 +26,7 @@ body{
     background-image: radial-gradient(
         rgba(58, 3, 58, 0.75), rgba(170, 40, 47, 0.75) 120%
     );
-    height: 100vh;
+    height: auto;
     margin: 0;
     overflow: hidden;
     padding: 2rem;
@@ -40,7 +40,7 @@ body{
         top: 0;
         left: 0;
         width: 100vw;
-        height: 100vh;
+        height: auto;
         background: repeating-linear-gradient(
         0deg,
         rgba(black, 0.15),
