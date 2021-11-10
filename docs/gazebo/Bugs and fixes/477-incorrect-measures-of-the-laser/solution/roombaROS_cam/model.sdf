@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
-  <model name='roombaROS_whit_camera'>
+  <model name='roombaROS_cam'>
     <link name='base'>
       <inertial>
         <pose>0.001453 -0.000453 0.029787 0 -0 0</pose>
