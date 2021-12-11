@@ -1,0 +1,59 @@
+<html>
+    <head> 
+        <link rel = "stylesheet" href = "../styles/main.css">
+        <link rel = "stylesheet" href = "../styles/banner.css">
+
+        <link rel = "stylesheet" href = "../styles/posts.css">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu+Mono" />
+        <script src="../lib/jquery.js"></script>
+        <script>
+        $(function(){
+            $('#post_week7').load('post_text/29_05_december_2021.html')
+        });
+    </script>
+
+        
+    </head>
+
+
+    <body>
+
+
+        <div id = "banner"> 
+            <div id = "logo" > </div>
+
+            <div style="background-color: #EEEEEE; color:white;">
+                <ul compact="compact" id="menu" style="text-align: center; " >
+                    <a href="../index.html"><li id="home_button">HOME</li></a>
+                    <a href="../posts.html"><li id="posts_button">» POSTS</li></a>
+                    <a href="../development.html"><li id="dev_button">DEV</li></a>
+                    <a href="../info.html"><li id="info_button">INFO</li></a>
+
+                </ul>
+            </div>
+            
+        </div>      
+        
+        <div id="post-content">
+            <div style="position:relative; padding-inline: 3%; margin-left: 5%; margin-right: 5%;">
+                <table style="width:80%">
+                    <tr ><a href="../posts.html" style="text-decoration: none; font-size: 16px; color: white;">← Back to POSTS list</a></tr>
+                    <tr><h1 style="font-family: Ubuntu Mono;">» Report: WEEK#7</h1></tr>
+                    <tr id="date">
+                        <p id="date">29/11/2021 - 05/12/2021</p>
+                    </tr>
+                    <tr id ="post_view">
+                        <div id="post_week7"></div>
+                        
+                    </tr>
+                    
+
+                </table>
+                
+            </div>
+        </div>
+        
+    </body>
+
+
+</html>
