@@ -1,0 +1,57 @@
+<html>
+    <head> 
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <link rel = "stylesheet" href = "styles/main.css">
+        <link rel = "stylesheet" href = "styles/banner.css">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu+Mono" />
+        <link rel = "stylesheet" href = "styles/posts.css">
+        <script src="lib/jquery.js"></script>
+        <script>
+            $(function(){
+                $('#dev').load('assets/dev.html')
+            });
+        </script>
+    </head>
+
+
+    <body>
+
+
+        
+        <div id = "banner"> 
+
+
+            <div id = "logo" > 
+
+            </div>
+            <div style="background-color: #EEEEEE; color:white;">
+                <ul compact="compact" id="menu" style="text-align: center; " >
+                    <a href="index.html"><li id="home_button">» HOME</li></a>
+                    <a href="posts.html"><li id="posts_button">POSTS</li></a>
+                    <a href="development.html"><li id="dev_button">DEV</li></a>
+                    <a href="info.html"><li id="info_button">INFO</li></a>
+
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div id="post-content">
+            <div style="position:relative; padding-inline: 3%; margin-left: 5%; margin-right: 5%;">
+                <table style="width:80%">
+                    <tr><h1 style="font-family: Ubuntu Mono;">» DEVELOPMENT</h1></tr>
+                    <tr style="text-decoration: none; font-size: 20px; color: white;">root@theroboticsclub:~/dev$</tr>
+                    <tr id ="dev"><div id="posts_list" style="margin-left: 3%;"></div></tr>
+
+                    
+
+                </table>
+                
+            </div>
+        </div>
+
+
+        
+    </body>
+</html>
